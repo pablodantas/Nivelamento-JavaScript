@@ -2,6 +2,10 @@ function sum(num1 , num2){
     return num1+ num2;
 }
 
+function total(valor , quantity){
+    return  valor * quantity;
+}
+
 function exp(base , exponent){
     return base ** exponent;
 }
@@ -11,4 +15,4 @@ function round(value , precision){
     return Math.round(value * multiplier)/ multiplier;
 }
 
-export {sum, round, exp}
+export {sum, round, exp, total}
