@@ -1,3 +1,4 @@
+
 const x = 10;
 
 if(x > 0){
@@ -12,6 +13,6 @@ console.log(a);
 //console.log(c);
 
 console.log("Imprimindo resultado do for:");
-for (let i = 0; i< 5; i++){
+for (let i = 0; i< 10; i++){
     console.log(i);
 }
